@@ -15,4 +15,4 @@ def getLikes(username):
     api.getMediaLikers(media_id)
     users = api.LastJson
     for users in users:
-        users_list.append({'pk':users['pk'], 'username':user['username']})
+        users_list.append({'pk':users['pk'], 'username':users['username']})
